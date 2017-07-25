@@ -5,14 +5,14 @@
   <title>Future Wonder Programming Exercise</title>
   <!-- Custom -->
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js"></script>
+
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
   <!-- Tests -->
   <script src="https://code.jquery.com/qunit/qunit-2.0.1.js"></script>
-  <script src="js/tests/main-test.js"></script>
+
 
   <!-- Bootstrap Assets -->
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -75,13 +75,19 @@
         </thead>
         <tbody>
           <tr>
-            <td>Luke Skywalker <a href="#"><span class="glyphicon glyphicon-remove"></span></a></td>
-            <td>X-Wing, Imperial shuttle</td>
+            <td class="character">Luke Skywalker <a href="#"><span class="glyphicon glyphicon-remove"></span></a></td>
+            <td class="#ship">X-Wing, Imperial shuttle</td>
           </tr>
         </tbody>
       </table>
+      <div>
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+      </div>
 
     </div><!-- /.container -->
+  <script src="js/main.js"></script>
+  <script src="js/test/main-test.js"></script>
 
   </body>
   </html>
